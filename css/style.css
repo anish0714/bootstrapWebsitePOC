@@ -109,10 +109,17 @@ body {
   border: 0.05rem solid #68a0d2 !important;
 }
 /*===== FIXED BACKGROUND IMG =====*/
-
+.fixed {
+  position: fixed;
+  background-image: url("../img/matrix.jpg");
+}
 .fixed-background {
   overflow: hidden; /*-- Correction for iOS --*/
+padding: 10rem 0;
 }
+
+
+
 
 /*-- Emoji Navbar --*/
 
