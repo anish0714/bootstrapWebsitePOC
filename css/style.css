@@ -115,14 +115,21 @@ body {
 }
 .fixed-background {
   overflow: hidden; /*-- Correction for iOS --*/
-padding: 10rem 0;
+  padding: 10rem 0;
 }
 
-
-
-
 /*-- Emoji Navbar --*/
+.emoji {
+  background-image: linear-gradient(to right, #4981b3, #ac2615);
+  min-height: 0 !important;
+  padding: 0.4rem !important;
+}
 
+.emoji .svg-inline--fa {
+  margin: 0 auto;
+  color: white;
+  font-size: 2rem;
+}
 /*============= FOOTER =============*/
 
 /*============= SOCKET =============*/
